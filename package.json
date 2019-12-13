@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "marcus portfolio",
+  "main": "index.js",
+  "homepage": "https://marreluring.github.io/portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Marcus Larsson",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Portfolio"
+  }
+}

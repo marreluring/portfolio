@@ -1,0 +1,214 @@
+// Small screens
+@include mediaSm {
+  main {
+    padding: 0;
+  }
+  main#home h1 {
+    // height: 100vh;;
+    margin-top: 10vh;
+    font-size: 4rem;
+    padding: 0 1rem 0 1rem;
+    .lg-heading,
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+  main#about {
+    align-items: center;
+    padding: 0;
+
+    .lg-heading {
+      margin-top: 10vh;
+      font-size: 4rem;
+      padding: 0 1rem;
+    }
+    .bio {
+      padding: 0 1rem;
+    }
+    .job {
+      margin: 0;
+
+      img {
+        margin: 50px 0;
+      }
+    }
+  }
+
+  .menu-btn {
+    position: fixed;
+  }
+
+  main#work {
+    .lg-heading {
+      margin-top: 10vh;
+      font-size: 4rem;
+      padding: 0 1rem;
+    }
+  }
+
+  main#contact {
+    padding: 0;
+
+    .lg-heading {
+      margin-top: 10vh;
+      font-size: 4rem;
+      padding: 0 1rem;
+    }
+  }
+
+  .slim1 {
+    display: none;
+  }
+
+  .slim2 {
+    font-weight: 100;
+    font-size: 70%;
+    color: #fff;
+    margin-left: 0.2rem;
+    display: inline-block;
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(100%, 0, 0);
+    font-size: 24px;
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(-100%, 0, 0);
+
+    .portrait {
+      background: url("../img/profilbild150.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 30% 50%;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+// Tablets and laptops screens
+@include mediaMd {
+  main {
+    align-items: center;
+    // text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .slim {
+    font-size: 3rem;
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(100%, 0, 0);
+    font-size: 24px;
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(-100%, 0, 0);
+
+    .portrait {
+      background: url("../img/profilbild150.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 30% 50%;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Large screens
+@include mediaLg {
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// XL screens
+@include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+
+    img {
+      width: 100%;
+      max-width: 450px;
+      height: 332px;
+      &.music {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}
