@@ -3,15 +3,19 @@
   main {
     padding: 0;
   }
-  main#home h1 {
-    // height: 100vh;;
-    margin-top: 10vh;
-    font-size: 4rem;
-    padding: 0 1rem 0 1rem;
-    .lg-heading,
-    .lg-heading {
-      line-height: 1;
-      margin-bottom: 1rem;
+  main#home {
+    h1 {
+      // height: 100vh;;
+      margin-top: 10vh;
+      font-size: 4rem;
+      padding: 0 1rem 0 1rem;
+      .lg-heading {
+        line-height: 1;
+        margin-bottom: 1rem;
+      }
+    }
+    .sm-heading {
+      font-size: 1.2rem;
     }
   }
   main#about {
@@ -25,6 +29,7 @@
     }
     .bio {
       padding: 0 1rem;
+      font-size: 1.2rem;
     }
     .job {
       margin: 0;
@@ -54,6 +59,10 @@
       margin-top: 10vh;
       font-size: 4rem;
       padding: 0 1rem;
+    }
+
+    .contact-icons {
+      max-height: 75px;
     }
   }
 
@@ -179,6 +188,13 @@
 
 // Large screens
 @include mediaLg {
+  main#work {
+    .lg-heading {
+      margin-top: 10vh;
+      font-size: 4rem;
+      padding: 0 1rem;
+    }
+  }
   .about-info {
     grid-template-areas:
       "bioimage"
@@ -197,6 +213,14 @@
 
 // XL screens
 @include mediaXl {
+  main#work {
+    .lg-heading {
+      margin-top: 10vh;
+      font-size: 4rem;
+      padding: 0 1rem;
+    }
+  }
+
   .projects {
     grid-template-columns: repeat(4, 1fr);
 

@@ -43,7 +43,6 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
-  // z-index: -100;
 }
 
 header {
@@ -101,7 +100,6 @@ main {
 }
 
 // ABOUT
-
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -154,11 +152,16 @@ main {
 }
 
 // WORK
-
 .projects {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
+
+  h2 {
+    color: $primary-color;
+    font-size: 150%;
+    font-weight: 600;
+  }
 
   img { 
     width: 100%;
@@ -180,11 +183,17 @@ main {
     .btn-light {
       border-radius: 8px;
     }
+
+    .centered {
+      img {
+        opacity: 1;
+        margin-bottom: 2rem;
+      }
+    }
   }
 }
 
 // Button styles
-
 .btn {
   display: block;
   width: 150px;
@@ -244,9 +253,6 @@ main {
 }
 
 .contact-icons {
-  //display: block;
-  //position: relative;
-  //padding: 1rem 0;
   font-weight: 200;
   color: $third-color;
   @include easeOut;

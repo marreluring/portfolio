@@ -9,7 +9,7 @@
     width: 48px;
     height: 8px;
     margin-bottom: 8px;
-    background: #fff;
+    background: #f5f5f5;
     transition: all 0.6s ease-out; }
   .menu-btn.close .btn-line:nth-child(1) {
     transform: translate(0, 200%) rotate(0.125turn);
@@ -259,6 +259,10 @@ main {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr); }
+  .projects h2 {
+    color: #362436;
+    font-size: 150%;
+    font-weight: 600; }
   .projects img {
     width: 100%;
     max-width: 300px;
@@ -273,6 +277,9 @@ main {
     align-items: center; }
     .projects .item .btn-light {
       border-radius: 8px; }
+    .projects .item .centered img {
+      opacity: 1;
+      margin-bottom: 2rem; }
 
 .btn, .btn-light, .btn-dark {
   display: block;
@@ -339,10 +346,11 @@ main {
     margin-top: 10vh;
     font-size: 4rem;
     padding: 0 1rem 0 1rem; }
-    main#home h1 .lg-heading,
     main#home h1 .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  main#home .sm-heading {
+    font-size: 1.2rem; }
   main#about {
     align-items: center;
     padding: 0; }
@@ -351,7 +359,8 @@ main {
       font-size: 4rem;
       padding: 0 1rem; }
     main#about .bio {
-      padding: 0 1rem; }
+      padding: 0 1rem;
+      font-size: 1.2rem; }
     main#about .job {
       margin: 0; }
       main#about .job img {
@@ -368,6 +377,8 @@ main {
       margin-top: 10vh;
       font-size: 4rem;
       padding: 0 1rem; }
+    main#contact .contact-icons {
+      max-height: 75px; }
   .slim1 {
     display: none; }
   .slim2 {
@@ -441,6 +452,10 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  main#work .lg-heading {
+    margin-top: 10vh;
+    font-size: 4rem;
+    padding: 0 1rem; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
@@ -448,6 +463,10 @@ main {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 1171px) {
+  main#work .lg-heading {
+    margin-top: 10vh;
+    font-size: 4rem;
+    padding: 0 1rem; }
   .projects {
     grid-template-columns: repeat(4, 1fr); }
     .projects img {
