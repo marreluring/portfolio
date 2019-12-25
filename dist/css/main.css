@@ -259,6 +259,16 @@ main {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr); }
+  .projects .modal-body {
+    color: black;
+    font-weight: 400; }
+  .projects .modal-title {
+    color: #b28811;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem; }
+  .projects .close {
+    font-size: 200%; }
   .projects h2 {
     color: #362436;
     font-size: 150%;
@@ -369,8 +379,10 @@ main {
     position: fixed; }
   main#work .lg-heading {
     margin-top: 10vh;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 0 1rem; }
+  main#work .modal-title {
+    font-size: 1.5rem; }
   main#contact {
     padding: 0; }
     main#contact .lg-heading {
@@ -421,6 +433,10 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  main#work .lg-heading {
+    margin-top: 10vh;
+    font-size: 3rem;
+    padding: 0 1rem; }
   .slim {
     font-size: 3rem; }
   ul.menu-nav,

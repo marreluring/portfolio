@@ -157,6 +157,22 @@ main {
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
 
+  .modal-body {
+    color: black;
+    font-weight: 400;
+  }
+  
+  .modal-title {
+    color: darken($secondary-color, 30);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .close {
+    font-size: 200%;
+  }
+
+
   h2 {
     color: $primary-color;
     font-size: 150%;
