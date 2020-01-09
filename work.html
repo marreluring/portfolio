@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Test  -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" .css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Projekt | Marcus</title>
+</head>
+
+<body id="bg-img-three">
+
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        Startsida
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        Utbildning
+                    </a>
+                </li>
+                <li class="nav-item current">
+                    <a class="nav-link">
+                        Urval av projekt
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Kontakta mig
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="work">
+        <h1 class="lg-heading">
+            <span class="text-secondary">UX & Interaktionsdesign</span>
+        </h1>
+
+        <div class="projects">
+            <!-- CYBORG BOX -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModalA">
+                    <img src="./img/cyborgbox/cyborgboxthumb.jpg" alt="Project" style="background-size: cover;">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModalA" class="btn-light">
+                    <strong><i class="far fa-file-pdf" style="margin-right: 0.5rem;"></i>Mer info.</strong>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModalA" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    The CYBORG BOX
+                                </h2>
+                                <!-- Image section -->
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <p> <br></p>
+                                    <img src="./img/cyborgbox/4.jpg" alt="">
+                                    <p>
+                                        Detta projektet var riktat till de yngsta tonåringarna. Projektet bestod av en
+                                        labyrinth som deltagarna fick navigera sig igenom blinda. Istället fick de
+                                        navigera med hjälp av en ultraljudssensor-riggad hjälm och vibrationsmotorer.
+                                        Tanken var att man skulle känna på byta ut ett sinne för ett annat förstärkt
+                                        sinne. Projektet ställdes ut på Universum som en del i ett skolprojekt där det
+                                        var mycket uppskattat. Det ställdes även senare ut på AHA-festivalen. <br><br>
+                                        Vi inrättade fokus-grupper med målgruppen, det blev flera prototyper och
+                                        iterationer genom projektet. Runt 250 besökare tog sig igenom labyrinten totalt.
+                                    </p>
+                                    <img src="./img/cyborgbox/3.jpg" alt="">
+                                    <p>
+                                        Hjälmen med sensorer och vibrationsmotorer. Ultraljudsensorerna sticker ut på
+                                        sidorna, och på insidan hanterade en Arduino dessa med hjälp av en powerbank.
+                                    </p>
+                                    <img style="max-width: 450px;" src="./img/cyborgbox/2.jpg" alt="">
+                                    <p>
+                                        Labyrinten hade green-screens på insidan vilken strömmades ut till en tv-skärm
+                                        så åskådarna kunde se sina kompisar vandra runt i blindo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a href="https://drive.google.com/file/d/1fCgh5kA8uhVDg9j22tXgrWjp9IUjxSPz/view?usp=sharing"
+                                    target="_blank" type="button" class="btn btn-light" style="
+                                        margin-right: 0.5rem; 
+                                        background-color: lightcoral;">
+                                    <i class="far fa-file-pdf" style="margin-right: 0.5rem;""></i>Project Report
+                                </a>
+                                <a type=" button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- ROOMBOOK -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal2">
+                    <img src="./img/jobs/schthumb.jpg" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal2" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Schemaläggningsapplikation (Desktop)
+                                </h2>
+                                <!-- Image section -->
+                                <p>
+                                    Mockup på ett komplett och utvärderat på runt 35 skärmar för ett
+                                    schemaläggningssystem för rumsbokning och granskning av utrustning. Riktat till
+                                    både lärare och studenter på Chalmers.
+                                </p>
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <img src="./img/jobs/roombook1.png">
+                                    <img src="./img/jobs/roombook2.png">
+                                    <img src="./img/jobs/roombook3.png">
+                                    <img src="./img/jobs/roombook4.png">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- DECEPTION -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal1">
+                    <img src="./img/jobs/deceptionthumb.png" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal1" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Deception: Murder in Hong Kong
+                                </h2>
+                                <!-- Image section -->
+                                <p>
+                                    Skoluppgift där målet var att digitalisera brädspelet Deception: Murder in Hong
+                                    Kong.
+                                    <br>
+                                    Fokuset var på bästa möjliga interaktion och feedback för att fortfarande för att
+                                    kunna ersätta brickor och spelplan med telefoner och surfplattor. <br>
+                                    Här är ett utdrag av projektets skärmar.
+                                </p>
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <img style="max-width: 450px;" src="./img/jobs/D1.png">
+                                    <img style="max-width: 450px;" src="./img/jobs/D2.png">
+                                    <img style="max-width: 450px;" src="./img/jobs/D3.png">
+                                    <img style="max-width: 450px;" src="./img/jobs/D4.png">
+                                    <img style="max-width: 450px;" src="./img/jobs/D5.png">
+                                    <img style="max-width: 450px;" src="./img/jobs/D6.png">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h1 class="lg-heading">
+            <span class="text-secondary">User Interface Mockups</span>
+        </h1>
+
+        <div class="projects">
+
+            <!-- INFO VIS EDUSWE -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal3">
+                    <img src="./img/jobs/eduswethumb.png" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal3" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Education on Sweden (Desktop)
+                                </h2>
+                                <!-- Image section -->
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <p>
+                                        Min tolkning av en hemsida vars syfte är att illustrera sveriges
+                                        utbildningsnivåer och ett sätt att interagera med dessa.
+                                        Gränssnittet är en omarbetning från en föråldrad version med samma innehåll.
+                                    </p>
+                                    <img src="./img/jobs/eduswefull2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- APPROVED-->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal4">
+                    <img src="./img/jobs/approvedthumb.png" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal4" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Approved (App)
+                                </h2>
+                                <!-- Image section -->
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <p>
+                                        Min visualisering av en kollegas app-idé.
+                                    </p>
+                                    <img style="max-width: 450px;" src="./img/jobs/APP1.png" alt="">
+                                    <img style="max-width: 450px;" src="./img/jobs/APP2.png" alt="">
+                                    <img style="max-width: 450px;" src="./img/jobs/APP3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DUX -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal9">
+                    <img src="./img/jobs/DUXthumb.png" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal9" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal9" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal header">header</div>
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Designing User Experiences (App)
+                                </h2>
+                                <!-- Image section -->
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <p>
+                                        Examinerande universitetsprojekt där jag valde att designa en spekulativ app,
+                                        från en apokalyptisk framtid där smart home robotar vänt sig mot människorna á
+                                        la Terminator.
+                                    </p>
+                                    <img style="max-width: 450px;" src="./img/jobs/DUX1.png" alt="">
+                                    <img style="max-width: 450px;" src="./img/jobs/DUX2.png" alt="">
+                                    <img style="max-width: 450px;" src="./img/jobs/DUX3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Weather -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal6">
+                    <img src="./img/jobs/waetherpagethumb.jpg" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal6" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+
+                <div class="modal fade" id="myModal6" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Weather.app
+                                </h2>
+                                <!-- Image section -->
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <p>
+                                        Mockup av webbsida för fiktivt företag.
+                                    </p>
+                                    <img src="./img/jobs/weatherpagefull.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- INFO VIS EDUSWE -->
+            <div class="item">
+                <a type="button" data-toggle="modal" data-target="#myModal7">
+                    <img src="./img/jobs/chatdeckthumb.jpg" alt="Project">
+                </a>
+                <a type="button" data-toggle="modal" data-target="#myModal7" class="btn-light">
+                    <strong>Mer info.</strong>
+                </a>
+
+                <div class="modal fade" id="myModal7" role="dialog">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content" style="background-color: #f5f5f5;">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">
+                                    Chat Deck prototype (iPad App)
+                                </h2>
+                                <!-- Image section -->
+                                <div class="centered"
+                                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                    <p>
+                                        Mockup av en chat deck app till iPad.
+                                    </p>
+                                    <img src="./img/jobs/chatdeckfull.png" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: flex-end;">
+                                <a type="button" class="btn btn-light" data-dismiss="modal">Stäng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="lg-heading">
+            <span class="text-secondary">Musik</span>
+        </h1>
+
+        <div class="projects">
+            <div class="item">
+                <a href="#!">
+                    <img src="./img/logos/kaploralogo.jpg" alt="Project" class="music">
+                </a>
+                <a href="https://open.spotify.com/album/5G0pR91Gi5p26wAcrOUwgY" class="btn-light spotify">
+                    <i class="fab fa-spotify"></i> Listen on Spotify
+                </a>
+                <!--<a href="#!" class="btn-dark">  Github
+                    <i class="fab fa-github"></i>
+                </a>-->
+
+            </div>
+            <div class="item">
+                <a href="#!">
+                    <img src="./img/logos/rojlogo.jpg" alt="Project" class="music">
+                </a>
+                <a href="https://open.spotify.com/artist/0mFiDKvozGWYRiivuVfNMd?si=tf8me7LYQh-QPB7qaHJvwg"
+                    class="btn-light spotify">
+                    <i class="fab fa-spotify"></i> Listen on Spotify
+                </a>
+                <!--<a href="#!" class="btn-dark">  Github
+                    <i class="fab fa-github"></i>
+                </a>-->
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="main-footer">
+        Marcus Larsson &copy; 2019
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
