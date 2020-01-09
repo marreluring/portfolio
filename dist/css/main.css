@@ -262,6 +262,10 @@ main {
   .projects .modal-body {
     color: black;
     font-weight: 400; }
+    .projects .modal-body img {
+      width: 100%;
+      height: 100%;
+      max-width: none; }
   .projects .modal-title {
     color: #b28811;
     text-align: center;
