@@ -56,7 +56,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/profilbild250.jpg");
+      background: url("../img/profilbild250.jpeg");
       border-radius: 70%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -421,7 +421,7 @@ main {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/profilbild150.jpg");
+      background: url("../img/profilbild150.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 30% 50%;
@@ -461,7 +461,7 @@ main {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/profilbild150.jpg");
+      background: url("../img/profilbild150.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 30% 50%;
